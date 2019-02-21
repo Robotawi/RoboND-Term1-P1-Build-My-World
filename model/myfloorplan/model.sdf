@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
-  <model name='myoffice'>
+  <model name='myfloorplan'>
     <pose frame=''>15 -16 0 0 -0 0</pose>
     <link name='Door_22'>
       <collision name='Door_22_Collision'>
@@ -258,7 +258,7 @@
         <pose frame=''>8 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>1.8 0.15 0</size>
+            <size>1.8 0.15 0.1</size>
           </box>
         </geometry>
         <material>
@@ -272,7 +272,7 @@
       <collision name='Wall_23_Collision_3'>
         <geometry>
           <box>
-            <size>1.8 0.15 0</size>
+            <size>1.8 0.15 0.1</size>
           </box>
         </geometry>
         <pose frame=''>8 0 0 0 -0 0</pose>
@@ -350,7 +350,7 @@
         <pose frame=''>6.3 0 3.6 0 -0 0</pose>
         <geometry>
           <box>
-            <size>1.6 0.15 0</size>
+            <size>1.6 0.15 0.1</size>
           </box>
         </geometry>
         <material>
@@ -364,7 +364,7 @@
       <collision name='Wall_23_Collision_7'>
         <geometry>
           <box>
-            <size>1.6 0.15 0</size>
+            <size>1.6 0.15 0.1</size>
           </box>
         </geometry>
         <pose frame=''>6.3 0 3.6 0 -0 0</pose>
@@ -578,7 +578,7 @@
         <pose frame=''>-0.09437 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>0.9 0.15 0</size>
+            <size>0.9 0.15 0.1</size>
           </box>
         </geometry>
         <material>
@@ -592,7 +592,7 @@
       <collision name='Wall_36_Collision_2'>
         <geometry>
           <box>
-            <size>0.9 0.15 0</size>
+            <size>0.9 0.15 0.1</size>
           </box>
         </geometry>
         <pose frame=''>-0.09437 0 0 0 -0 0</pose>
@@ -673,7 +673,7 @@
         <pose frame=''>-1.34612 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>1.8 0.15 0</size>
+            <size>1.8 0.15 0.1</size>
           </box>
         </geometry>
         <material>
@@ -687,7 +687,7 @@
       <collision name='Wall_38_Collision_2'>
         <geometry>
           <box>
-            <size>1.8 0.15 0</size>
+            <size>1.8 0.15 0.1</size>
           </box>
         </geometry>
         <pose frame=''>-1.34612 0 0 0 -0 0</pose>
@@ -794,7 +794,7 @@
         <pose frame=''>-1.20573 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>0.9 0.15 0</size>
+            <size>0.9 0.15 0.1</size>
           </box>
         </geometry>
         <material>
@@ -808,7 +808,7 @@
       <collision name='Wall_41_Collision_2'>
         <geometry>
           <box>
-            <size>0.9 0.15 0</size>
+            <size>0.9 0.15 0.1</size>
           </box>
         </geometry>
         <pose frame=''>-1.20573 0 0 0 -0 0</pose>
@@ -912,7 +912,7 @@
         <pose frame=''>-1 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>1.8 0.15 0</size>
+            <size>1.8 0.15 0.1</size>
           </box>
         </geometry>
         <material>
@@ -926,7 +926,7 @@
       <collision name='Wall_44_Collision_3'>
         <geometry>
           <box>
-            <size>1.8 0.15 0</size>
+            <size>1.8 0.15 0.1</size>
           </box>
         </geometry>
         <pose frame=''>-1 0 0 0 -0 0</pose>
@@ -935,7 +935,7 @@
         <pose frame=''>3.5 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>1.8 0.15 0</size>
+            <size>1.8 0.15 0.1</size>
           </box>
         </geometry>
         <material>
@@ -949,7 +949,7 @@
       <collision name='Wall_44_Collision_4'>
         <geometry>
           <box>
-            <size>1.8 0.15 0</size>
+            <size>1.8 0.15 0.1</size>
           </box>
         </geometry>
         <pose frame=''>3.5 0 0 0 -0 0</pose>
@@ -1099,7 +1099,7 @@
         <pose frame=''>-4 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>1.8 0.15 0</size>
+            <size>1.8 0.15 0.1</size>
           </box>
         </geometry>
         <material>
@@ -1113,7 +1113,7 @@
       <collision name='Wall_46_Collision_4'>
         <geometry>
           <box>
-            <size>1.8 0.15 0</size>
+            <size>1.8 0.15 0.1</size>
           </box>
         </geometry>
         <pose frame=''>-4 0 0 0 -0 0</pose>
@@ -1122,7 +1122,7 @@
         <pose frame=''>-0 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>1.8 0.15 0</size>
+            <size>1.8 0.15 0.1</size>
           </box>
         </geometry>
         <material>
@@ -1136,7 +1136,7 @@
       <collision name='Wall_46_Collision_5'>
         <geometry>
           <box>
-            <size>1.8 0.15 0</size>
+            <size>1.8 0.15 0.1</size>
           </box>
         </geometry>
         <pose frame=''>-0 0 0 0 -0 0</pose>
@@ -1145,7 +1145,7 @@
         <pose frame=''>4 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>1.8 0.15 0</size>
+            <size>1.8 0.15 0.1</size>
           </box>
         </geometry>
         <material>
@@ -1159,7 +1159,7 @@
       <collision name='Wall_46_Collision_6'>
         <geometry>
           <box>
-            <size>1.8 0.15 0</size>
+            <size>1.8 0.15 0.1</size>
           </box>
         </geometry>
         <pose frame=''>4 0 0 0 -0 0</pose>
@@ -1286,7 +1286,7 @@
         <pose frame=''>-1 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>1.8 0.15 0</size>
+            <size>1.8 0.15 0.1</size>
           </box>
         </geometry>
         <material>
@@ -1300,7 +1300,7 @@
       <collision name='Wall_48_Collision_2'>
         <geometry>
           <box>
-            <size>1.8 0.15 0</size>
+            <size>1.8 0.15 0.1</size>
           </box>
         </geometry>
         <pose frame=''>-1 0 0 0 -0 0</pose>
@@ -1401,7 +1401,7 @@
         <pose frame=''>2.4375 0 3.6 0 -0 0</pose>
         <geometry>
           <box>
-            <size>0.275 0.15 0</size>
+            <size>0.275 0.15 0.1</size>
           </box>
         </geometry>
         <material>
@@ -1415,7 +1415,7 @@
       <collision name='Wall_48_Collision_7'>
         <geometry>
           <box>
-            <size>0.275 0.15 0</size>
+            <size>0.275 0.15 0.1</size>
           </box>
         </geometry>
         <pose frame=''>2.4375 0 3.6 0 -0 0</pose>
@@ -1499,7 +1499,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>0.9 0.15 0</size>
+            <size>0.9 0.15 0.1</size>
           </box>
         </geometry>
         <material>
@@ -1513,7 +1513,7 @@
       <collision name='Wall_50_Collision_2'>
         <geometry>
           <box>
-            <size>0.9 0.15 0</size>
+            <size>0.9 0.15 0.1</size>
           </box>
         </geometry>
         <pose frame=''>0 0 0 0 -0 0</pose>
@@ -1666,7 +1666,7 @@
         <pose frame=''>-4 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>0.9 0.15 0</size>
+            <size>0.9 0.15 0.1</size>
           </box>
         </geometry>
         <material>
@@ -1680,7 +1680,7 @@
       <collision name='Wall_54_Collision_4'>
         <geometry>
           <box>
-            <size>0.9 0.15 0</size>
+            <size>0.9 0.15 0.1</size>
           </box>
         </geometry>
         <pose frame=''>-4 0 0 0 -0 0</pose>
@@ -1689,7 +1689,7 @@
         <pose frame=''>-1.5 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>0.9 0.15 0</size>
+            <size>0.9 0.15 0.1</size>
           </box>
         </geometry>
         <material>
@@ -1703,7 +1703,7 @@
       <collision name='Wall_54_Collision_5'>
         <geometry>
           <box>
-            <size>0.9 0.15 0</size>
+            <size>0.9 0.15 0.1</size>
           </box>
         </geometry>
         <pose frame=''>-1.5 0 0 0 -0 0</pose>
@@ -1712,7 +1712,7 @@
         <pose frame=''>3 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>1.8 0.15 0</size>
+            <size>1.8 0.15 0.1</size>
           </box>
         </geometry>
         <material>
@@ -1726,7 +1726,7 @@
       <collision name='Wall_54_Collision_6'>
         <geometry>
           <box>
-            <size>1.8 0.15 0</size>
+            <size>1.8 0.15 0.1</size>
           </box>
         </geometry>
         <pose frame=''>3 0 0 0 -0 0</pose>
@@ -1876,7 +1876,7 @@
         <pose frame=''>-1.5 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>0.9 0.15 0</size>
+            <size>0.9 0.15 0.1</size>
           </box>
         </geometry>
         <material>
@@ -1890,7 +1890,7 @@
       <collision name='Wall_56_Collision_3'>
         <geometry>
           <box>
-            <size>0.9 0.15 0</size>
+            <size>0.9 0.15 0.1</size>
           </box>
         </geometry>
         <pose frame=''>-1.5 0 0 0 -0 0</pose>
@@ -1899,7 +1899,7 @@
         <pose frame=''>3 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>1.8 0.15 0</size>
+            <size>1.8 0.15 0.1</size>
           </box>
         </geometry>
         <material>
@@ -1913,7 +1913,7 @@
       <collision name='Wall_56_Collision_4'>
         <geometry>
           <box>
-            <size>1.8 0.15 0</size>
+            <size>1.8 0.15 0.1</size>
           </box>
         </geometry>
         <pose frame=''>3 0 0 0 -0 0</pose>
@@ -2040,7 +2040,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>0.9 0.15 0</size>
+            <size>0.9 0.15 0.1</size>
           </box>
         </geometry>
         <material>
@@ -2054,7 +2054,7 @@
       <collision name='Wall_58_Collision_3'>
         <geometry>
           <box>
-            <size>0.9 0.15 0</size>
+            <size>0.9 0.15 0.1</size>
           </box>
         </geometry>
         <pose frame=''>0 0 0 0 -0 0</pose>
@@ -2063,7 +2063,7 @@
         <pose frame=''>2.5 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>0.9 0.15 0</size>
+            <size>0.9 0.15 0.1</size>
           </box>
         </geometry>
         <material>
@@ -2077,7 +2077,7 @@
       <collision name='Wall_58_Collision_4'>
         <geometry>
           <box>
-            <size>0.9 0.15 0</size>
+            <size>0.9 0.15 0.1</size>
           </box>
         </geometry>
         <pose frame=''>2.5 0 0 0 -0 0</pose>
@@ -2230,7 +2230,7 @@
         <pose frame=''>14 0 0 0 -0 0</pose>
         <geometry>
           <box>
-            <size>0.9 0.15 0</size>
+            <size>0.9 0.15 0.1</size>
           </box>
         </geometry>
         <material>
@@ -2244,7 +2244,7 @@
       <collision name='Wall_7_Collision_3'>
         <geometry>
           <box>
-            <size>0.9 0.15 0</size>
+            <size>0.9 0.15 0.1</size>
           </box>
         </geometry>
         <pose frame=''>14 0 0 0 -0 0</pose>
