@@ -30,6 +30,26 @@ sudo apt-get update && sudo apt-get upgrade -y
 ```
 4. Build and run your code.  
 ## Project Description  
+Directory Structure  
+```
+.Build-My-World                    # Build My World Project 
+├── model                          # Model files 
+│   ├── gokart
+│   │   ├── model.config
+│   │   ├── model.sdf
+│   ├── myfloorplan
+│   │   ├── model.config
+│   │   ├── model.sdf
+│   ├── robot
+│   │   ├── model.config
+│   │   ├── model.sdf
+├── script                         # Gazebo World plugin C++ script      
+│   ├── welcome.cpp
+├── world                          # Gazebo main World containing models 
+│   ├── myoffice.world
+├── CMakeLists.txt                 # Link libraries 
+└──   
+```
 - [myoffice.world](/world/myoffice.world): Gazebo world file that includes the models.  
 - [myfloorplan](/model/myfloorplan): A single floor structure designed in the Building Editor tool of Gazebo.  
 - [gokart](/model/gokart): A go kart designed in the Model Editor tool of Gazebo.  
