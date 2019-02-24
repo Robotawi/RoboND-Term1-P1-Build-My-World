@@ -1,7 +1,7 @@
 # RoboND-Term1-P1-Build-My-World
 Project 1 of Udacity Robotics Software Engineer Nanodegree Program
 
-[Overview](/screenshots/Overview.png)  
+![Overview](/screenshots/Overview.png)  
 
 ## Overview  
 In this project you'll create your simulation world in Gazebo for all your upcoming projects in the [Udacity Robotics Software Engineer Nanodegree Program](https://www.udacity.com/course/robotics-software-engineer--nd209).  
@@ -24,7 +24,10 @@ In this project you'll create your simulation world in Gazebo for all your upcom
 ## Setup Instructions (abbreviated)  
 1. Meet the `Prerequisites/Dependencies`  
 2. Open Ubuntu Bash and clone the project repository  
-3. On the command line execute `sudo apt-get update && sudo apt-get upgrade -y`  
+3. On the command line execute  
+```bash
+sudo apt-get update && sudo apt-get upgrade -y
+```
 4. Build and run your code.  
 ## Project Description  
 - [myoffice.world](/world/myoffice.world): Gazebo world file that includes the models.  
@@ -36,9 +39,18 @@ In this project you'll create your simulation world in Gazebo for all your upcom
 - [CMakeLists.txt](CMakeLists.txt): File to link the C++ code to libraries.  
 ## Run the project  
 * Clone this respository
-* At the top level of the project repository, create a build directory: `mkdir build && cd build`
-* In `/build` directory, compile yoru code with `cmake .. && make`
-* Export your plugin folder in the terminal so your world file can find it: `export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/RoboND-Term1-P1-Build-My-World/build`  
+* At the top level of the project repository, create a build directory:  
+```bash
+mkdir build && cd build
+```
+* In `/build` directory, compile yoru code with  
+```bash
+cmake .. && make
+```
+* Export your plugin folder in the terminal so your world file can find it:  
+```bash
+export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/RoboND-Term1-P1-Build-My-World/build
+```
 * Launch the world file in Gazebo to load both the world and plugin  
 ```bash
 cd /home/workspace/github/RoboND-Term1-P1-Build-My-World/world/
