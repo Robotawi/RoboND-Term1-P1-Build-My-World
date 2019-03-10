@@ -58,12 +58,12 @@ Directory Structure
 - [Overview.png](/screenshots/Overview.png): A screenshot of the final result.  
 - [CMakeLists.txt](CMakeLists.txt): File to link the C++ code to libraries.  
 ## Run the project  
-* Clone this respository
+* Clone this repository
 * At the top level of the project repository, create a build directory:  
 ```bash
 mkdir build && cd build
 ```
-* In `/build` directory, compile yoru code with  
+* In `/build` directory, compile your code with  
 ```bash
 cmake .. && make
 ```
